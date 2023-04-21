@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://vistapointe.net/images/restaurant-9.jpg);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+}
